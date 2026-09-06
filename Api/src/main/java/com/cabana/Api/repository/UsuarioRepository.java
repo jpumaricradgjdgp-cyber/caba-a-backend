@@ -10,7 +10,7 @@ import java.util.UUID;
 
 @Repository
 public class UsuarioRepository {
-    private final List<Usuario> dbUsuarios = new ArrayList<>();
+    private final List<com.cabana.Api.model.Usuario> dbUsuarios = new ArrayList<>();
 
     public List<Usuario> findAll() {
         return dbUsuarios;
